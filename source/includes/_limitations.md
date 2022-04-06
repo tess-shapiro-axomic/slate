@@ -1,0 +1,31 @@
+# Limitations
+
+- We cannot get employee roles on album-based template (you CAN get employee role on project-based templates)
+- We cannot get project hero images for project-based templates
+- We cannot grab custom file fields for project-based templates, only built-in fields (“photographer”,”caption”,”accessLevel”)
+- We cannot overflow text onto the next spread for more than the first project or employee
+- We cannot dynamically add line breaks in Word templates
+- We cannot grab file keywords in album or project based templates
+- We cannot access all the project images under an employee’s project experience (just the hero image project)
+- We cannot add a new page “as needed” in Word templates
+- We cannot overflow text from one table cell to another in Word
+- We cannot overflow text from one slide to the next
+- We cannot allow the user to generate more than one employee/project/set of files Word template at a time (if multiple selected, only the first will generate)
+- We cannot list items with different styles dynamically (ie- name bolded)
+- We cannot grab Original, Small, or Thumbnail images
+- We cannot add data to tables in InDesign.
+  - A possible workaround is to make each cell into its own textbox, but first, have the IM check with the client to ensure this workaround is suitable for them. If this workaround is acceptable, the client should provide a new .indd/.idml for us to work with
+- We cannot add images outside the page in InDesign
+- We can add text and data from OA in a textbox outside the page in InDesign
+- We cannot use paragraph or character style names with some non-alphanumeric characters (including but not limited to :, &lt;, >, <)
+  - The only characters I know for sure will work are alphanumeric, space, comma, left and right parenthesis, asterisk, hyphen, and forward-slash (/)
+  - This will cause the wrong style to be used and should be fixed by changing the name of the character or paragraph style (some clients are more particular about this than others, so depending on the client, it may be worth reaching out first)
+- We cannot promise that a 2 page spread that does not use facing pages will work (issues arise with first page duplicating and first spread not accepting appended data)
+- We cannot guarantee that we can keep your master slides for a Powerpoint template (will still look at expected, but not created with master slides)
+- We can grab employees for project based template and projects for employee based templates
+- We cannot add a non-rectangular image to a Word file (no circles, hexagons, etc.)
+- We cannot have InDesign images with a negative x position value.
+- We cannot append data/images to text boxes or frames that are anchored
+- We cannot append to InDesign tables
+- We cannot properly generate a PDF from a Powerpoint if a textbox has multiple columns
+- We cannot accept Word documents where “Tracking Changes” cannot be turned off
